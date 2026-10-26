@@ -3,11 +3,18 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <math.h>
+
+#define sub_A 10
+#define sub_B 3
+#define SQUARE(x) ((x)*(x))
 
 
+double segment_lenght(double x1, double y1, double x2, double y2);
 
-
-
+double segment_lenght(double x1, double y1, double x2, double y2) {
+	return sqrt(SQUARE(x2 - x1) + SQUARE(y2 - y1));
+}
 
 
 
@@ -19,6 +26,7 @@ int add(int x, int y);
 int multiply(int x, int y);
 float divide(int x, int y);
 char* concat(const char *a, const char *b);
+int str_to_int(const char* str1);
 
 
 int subtract(int x, int y) {
@@ -60,8 +68,15 @@ char* concat(const char* a, const char* b) {
 		return NULL;
 	}
 
+
+
 	strcpy(result, a);
 	strcat(result, b);
 	return result;
 
+}
+
+int str_to_int(const char* str1) {
+	long result = strtol(str1, NULL, 10);
+	return result;
 }

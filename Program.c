@@ -2,14 +2,10 @@
 
 
 
-int str_to_int(const char* str1) {
-	long result = strtol(str1, NULL, 10);
-	return result;
-}
 
 
 int main() {
-	int a = subtract(10, 3);
+	int a = subtract(sub_A, sub_B);
 	int b = add(3, 2);
 	int c = multiply(10, 20);
 	float d = divide(4, 2);
@@ -30,6 +26,7 @@ int main() {
 	const char* str = "123 iq";
 	int res = str_to_int(str);
 	printf("%d", res);
+	printf("dlina: %f\n", segment_lenght(0, 0, 3, 4));
 	return 0;
 }
 

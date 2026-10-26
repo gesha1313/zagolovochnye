@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "zagolovochnye\\x64\\Debug\\myheader.obj",
+            "outputs": [
+                "zagolovochnye\\x64\\Debug\\myheader.h.obj.dt.module.json",
+                "zagolovochnye\\x64\\Debug\\myheader.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
