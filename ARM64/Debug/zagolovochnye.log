@@ -1,0 +1,9 @@
+﻿  Program.c
+C:\Users\geshtalt\source\repos\zagolovochnye\zagolovochnye\myheader.h(46,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Program.c')
+  
+C:\Users\geshtalt\source\repos\zagolovochnye\zagolovochnye\Program.c(37,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+C:\Users\geshtalt\source\repos\zagolovochnye\zagolovochnye\Program.c(37,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'int *'
+C:\Users\geshtalt\source\repos\zagolovochnye\zagolovochnye\Program.c(36,7): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int'
+C:\Users\geshtalt\source\repos\zagolovochnye\zagolovochnye\Program.c(25,7): warning C4101: 'buf': unreferenced local variable
+  zagolovochnye.vcxproj -> C:\Users\geshtalt\source\repos\zagolovochnye\ARM64\Debug\zagolovochnye.exe
