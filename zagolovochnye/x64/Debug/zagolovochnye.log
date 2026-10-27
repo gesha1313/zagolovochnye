@@ -1,6 +1,6 @@
 ﻿  Program.c
-C:\Mac\Home\Desktop\zagolovochnye\myheader.h(54,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Mac\Home\Desktop\zagolovochnye\myheader.h(83,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'Program.c')
   
-C:\Mac\Home\Desktop\zagolovochnye\Program.c(21,7): warning C4101: 'buf': unreferenced local variable
+C:\Mac\Home\Desktop\zagolovochnye\Program.c(23,7): warning C4101: 'buf': unreferenced local variable
   zagolovochnye.vcxproj -> C:\Mac\Home\Desktop\zagolovochnye\x64\Debug\zagolovochnye.exe
